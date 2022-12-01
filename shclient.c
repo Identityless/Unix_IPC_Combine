@@ -200,7 +200,7 @@ void *makeCar(void *ptr)
             current_made_car->isPainted = false;
             current_made_car->isInspected = false;
             current_made_car->next = NULL;
-            printf("car %d is created, client have %d components\n", i, components);
+            //printf("car %d is created, client have %d components\n", i, components);
             i++;
         }
     }
@@ -217,7 +217,7 @@ void *paintCar(void *ptr)
             //sleep(1);
             current_painted_car = current_painted_car->next;
             current_painted_car->isPainted = true;
-            printf("car %d is painted\n", i);
+            //printf("car %d is painted\n", i);
             i++;
         }
     }
